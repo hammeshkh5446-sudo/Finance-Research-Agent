@@ -3,6 +3,7 @@
 An AI agent that autonomously decides which tools to call -- live stock/crypto prices, historical performance, fundamentals, and a calculator -- to answer investing questions, instead of following a fixed script.
 
 **🔗 Live App:** https://finance-research-agent-3mhg7imzslrb64kj3jmqvt.streamlit.app/
+
 ---
 
 ## Overview
@@ -38,7 +39,7 @@ Unlike a simple RAG or single-prompt chatbot, this is a genuine **tool-use agent
 ## Project Structure
 
 ```
-AI-Agent-Assistant/
+Finance-Research-Agent/
 │
 ├── app.py                 # Streamlit app + agent loop
 ├── requirements.txt        # Python dependencies (version-pinned)
@@ -50,8 +51,8 @@ AI-Agent-Assistant/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/hammeshkh5446-sudo/AI-Agent-Assistant.git
-cd AI-Agent-Assistant
+git clone https://github.com/hammeshkh5446-sudo/Finance-Research-Agent.git
+cd Finance-Research-Agent
 ```
 
 **2. Install dependencies**
