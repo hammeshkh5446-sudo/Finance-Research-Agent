@@ -161,6 +161,20 @@ st.markdown(
         margin-bottom: 0.6rem;
     }
 
+    /* Sidebar collapse/expand toggle arrow -- direct fix from DevTools inspection */
+    .st-emotion-cache-12bp31y {
+        color: #e8c766 !important;
+    }
+
+    /* Sidebar collapse/expand toggle arrow */
+    [data-testid="stSidebarCollapsedControl"] svg,
+    [data-testid="stSidebarCollapseButton"] svg,
+    [data-testid="collapsedControl"] svg,
+    button[kind="header"] svg {
+        color: #e8c766 !important;
+        fill: #e8c766 !important;
+    }
+
     /* Expander */
     div[data-testid="stExpander"] {
         background: #ffffff;
