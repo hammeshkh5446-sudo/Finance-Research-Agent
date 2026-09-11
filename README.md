@@ -2,8 +2,7 @@
 
 An AI agent that autonomously decides which tools to call -- live stock/crypto prices, historical performance, fundamentals, and a calculator -- to answer investing questions, instead of following a fixed script.
 
-**🔗 Live App:** _add your Streamlit Cloud link here after deploying_
-
+**🔗 Live App:** https://finance-research-agent-3mhg7imzslrb64kj3jmqvt.streamlit.app/
 ---
 
 ## Overview
